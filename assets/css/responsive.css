@@ -1,0 +1,214 @@
+
+/* ***Responsive media query*** */
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width:1500px){ 
+    
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+   
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+   /* Agency Details Section */
+   .agency-details-content {
+    padding: 20px;
+  }
+  /* Service Area */
+  .single-process .process-number span {
+    width: 110px;
+    height: 110px;
+    font-size: 46px;
+    line-height: 108px;
+    margin-right: 60px;
+  }
+  /* Section Content */
+  .section-content h2 {
+    line-height: 38px;
+    font-size: 22px;
+  }
+
+  /* Mobile Menu */
+  .navbar {
+    padding: .5rem 0;
+  }
+  ul.navbar-nav { 
+    background-color: #575989;
+    padding: 5px 0;
+    padding-bottom: 10px;
+  }
+  ul.navbar-nav li {
+    margin: 5px 0px;
+    padding-left: 10px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid #fff;
+    position: relative;
+  }
+  ul.navbar-nav li:before {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+    transition: 0.4s ease-out;
+    -webkit-transition: 0.4s ease-out;
+    -moz-transition: 0.4s ease-out;
+    -ms-transition: 0.4s ease-out;
+    -o-transition: 0.4s ease-out;
+}
+  ul.navbar-nav li:hover:before {
+    width: 100%;
+  } 
+  ul.navbar-nav li a { 
+    color: #fff;
+  }
+  ul.navbar-nav li a:hover {
+    color: #fff;
+  }
+  ul.navbar-nav li a::before {
+    display: none;
+  }
+  /* Mobile Menu End */
+}
+
+/* Extra small devices (portrait phones, less than 768px) */
+@media (max-width: 767.98px) { 
+  h3 {
+    font-size: 24px;
+  }
+  /* Section Content */
+  .section-content h2 {
+    line-height: 38px;
+    font-size: 29px;
+  }
+   /* Banner Section */
+   .banner-section {
+    padding-top: 30px;
+    padding-bottom: 60px;
+  }
+  .banner-content h2 {
+    font-size: 32px;
+  }
+  .banner-content .default-btn {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  /* SEO About Area */
+  .seo-about-wrapper {
+    padding-top: 0;
+    padding-bottom: 60px;
+  }
+  /* Agency Details */
+  .agency-details-content {
+    padding: 20px;
+  }
+  .single-agency-details {
+    margin-bottom: 40px;
+  }
+  .agency-details-area {
+    padding-bottom: 15px;
+  }
+
+  /* Testomonial Section */
+  .testomonial-title h3 {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    position: relative;
+  }
+  .testomonial-title h3::before {
+    position: absolute;
+    content: "";
+    background-color: #fff;
+    width: 90px;
+    height: 4px;
+    bottom: 0;
+    left: 50%;
+    margin-left: -45px;
+  }
+  .testomonial-slider {
+    padding-bottom: 30px;
+  }
+  .testomonial-slider .slick-dots li button {
+    width: 18px;
+    height: 18px;
+  }
+  .testomonial-slider .slick-dots {
+    padding-top: 60px;
+  }
+
+  /* Service Area */
+  .single-process .process-number span {
+    width: 60px;
+    height: 60px;
+    font-size: 18px;
+    line-height: 60px;
+    margin-right: 15px;
+  }
+  .single-process .process-content h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  .single-process .process-number::before {
+    left: 40%;
+  }
+  .single-process {
+    margin-bottom: 45px;
+  }
+
+
+  /* Mobile Menu */
+  .navbar {
+    padding: .5rem 0;
+  }
+  ul.navbar-nav { 
+    background-color: #575989;
+    padding: 5px 0;
+    padding-bottom: 10px;
+  }
+  ul.navbar-nav li {
+    margin: 5px 0px;
+    padding-left: 10px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid #fff;
+    position: relative;
+  }
+  ul.navbar-nav li:before {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+    transition: 0.4s ease-out;
+    -webkit-transition: 0.4s ease-out;
+    -moz-transition: 0.4s ease-out;
+    -ms-transition: 0.4s ease-out;
+    -o-transition: 0.4s ease-out;
+}
+  ul.navbar-nav li:hover:before {
+    width: 100%;
+  } 
+  ul.navbar-nav li a { 
+    color: #fff;
+  }
+  ul.navbar-nav li a:hover {
+    color: #fff;
+  }
+  ul.navbar-nav li a::before {
+    display: none;
+  }
+  /* Mobile Menu End */
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+   
+}
